@@ -1,0 +1,45 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Vehicle Factory 5 (17017)",
+  "isAbstract": false,
+  "name": "Vehicle Factory 5",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 2.0,
+      "armorType": "BUILDING",
+      "buildCondition": 30,
+      "buildTime": "PT8H",
+      "costs": {
+        "Alloys (1)": 300.0,
+        "Money (20)": 450.0
+      },
+      "dayOfAvailability": 7,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "DESTROYED_ON_OWNER_CHANGE": 1.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrain": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "forbiddenTerrainCore": [],
+      "maxCondition": 30,
+      "rankingFactor": 18.0,
+      "replacedUpgrade": "Vehicle Factory 4 (17016)",
+      "requiredUpgrades": {
+        "Vehicle Factory 4 (17016)": 1.0,
+        "City Hall 5 (17005)": 1.0
+      },
+      "sortOrders": "3"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "@type": "content.model.contentitem.UnitContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "0 - Armored Car 6 (16017)",
+  "isAbstract": false,
+  "name": "0 - Armored Car 6",
+  "status": 0,
+  "versions": {
+    "1": {
+      "attackAllowed": true,
+      "buildTime": "PT8H",
+      "conquerer": true,
+      "costs": {
+        "Supplies (0)": 250.0,
+        "Alloys (1)": 150.0,
+        "Money (20)": 700.0
+      },
+      "dailyCosts": {
+        "Supplies (0)": 25.0,
+        "Alloys (1)": 15.0,
+        "Money (20)": 70.0
+      },
+      "damageArea": {
+        "LAND": 1.0
+      },
+      "damageAreaFactors": {
+        "FOREST": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.0
+      },
+      "damageFactors": {
+        "AIR": 0.236363634,
+        "BUILDING": 0.181818187,
+        "HARD": 0.236363634,
+        "LIGHT": 0.454545438,
+        "NORMAL": 1.0,
+        "SEA": 0.236363634,
+        "SUBMARINE": 0.236363634
+      },
+      "damageTypes": {
+        "LAND": 7.0
+      },
+      "defence": {
+        "LAND": 22.0
+      },
+      "defenceFactors": {
+        "FOREST": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.25,
+        "URBAN": 1.0
+      },
+      "foreignSpeedFactor": 0.25,
+      "friendlySpeedFactor": 1.0,
+      "garrison": true,
+      "hitPoints": {
+        "LAND": 300.0
+      },
+      "identifier": "armored_car",
+      "minProductionTime": "PT8H",
+      "moraleDamage": {
+        "moraleDamage": 2.0
+      },
+      "rankingFactor": 24.0,
+      "requiredUpgrades": {
+        "Vehicle Factory 6 (17018)": 1.0,
+        "City Hall 6 (17006)": 1.0
+      },
+      "sizeFactors": {
+        "1": 1.0,
+        "10000": 0.0
+      },
+      "speedFactors": {
+        "FOREST": 0.8,
+        "HILLS": 0.8,
+        "MOUNTAIN": 0.6,
+        "PLAINS": 1.2,
+        "URBAN": 1.0
+      },
+      "speeds": {
+        "LAND": 15.0,
+        "RAIL": 45.0
+      },
+      "statsColumnID": 102,
+      "strength": {
+        "LAND": 27.5
+      },
+      "strengthFactors": {
+        "FOREST": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.25,
+        "URBAN": 1.0
+      },
+      "tier": 6,
+      "unitClass": 7,
+      "unitFeatures": {
+        "REQUIRED_BUILDING_AS_FACTORY": 1.0,
+        "CUSTOM_REINFORCEMENT_COST": 3.6,
+        "PRODUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "FLOOR_SPACE": 1.0,
+        "AI_PENALTY_FOR_PRODUCTION": 0.24,
+        "AI_PRODUCTION_VALUE": 0.24
+      },
+      "viewWidthFactors": {
+        "FOREST": 0.8,
+        "HIGHSEA": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.2,
+        "PLAINS": 1.0,
+        "SHALLOWSEA": 1.0,
+        "URBAN": 1.0
+      },
+      "viewWidths": {
+        "LAND": 200.0
+      }
+    }
+  }
+}

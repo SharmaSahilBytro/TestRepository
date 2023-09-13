@@ -1,0 +1,42 @@
+{
+  "@type": "content.model.contentitem.ScenarioContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Test_P10_UK_4p (15100)",
+  "isAbstract": false,
+  "name": "Test_P10_UK_4p",
+  "status": 0,
+  "versions": {
+    "1": {
+      "allProvincesRefreshTickRate": "PT1M",
+      "attackInterval": "PT30M",
+      "capitalDistancePenalty": {
+        "800.0": 25.0,
+        "800.1": 0.0
+      },
+      "coalitionMemberLimit": 2,
+      "doubleResourceProductionThreshold": 4000,
+      "gameDuration": 35,
+      "logGameBalancingStatistics": 10,
+      "map": "15100_1",
+      "maxEnemyTeamRelation": "PEACE",
+      "maxJoinDay": 2,
+      "maxPlayers": 4,
+      "maxTeams": 2,
+      "minPlayers": 4,
+      "minReopenProvinces": 4,
+      "minStartProvinces": 4,
+      "playerAiStartDay": 2,
+      "playNowCountrySelect": "1",
+      "playNowGameDuration": 35,
+      "playNowMaxGameAge": "2",
+      "playNowMinActivity": "2",
+      "playNowNumberOfPlayers": "4",
+      "scenarioTeamMode": "1",
+      "status": "JOIN_ONLY",
+      "sugPlayers": 4,
+      "teamVictoryPoints": 1500,
+      "victoryPoints": 1000
+    }
+  }
+}

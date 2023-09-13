@@ -1,0 +1,12 @@
+{
+  "@type": "content.model.contentitem.RankContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Private (15400)",
+  "isAbstract": false,
+  "name": "Private",
+  "status": 0,
+  "versions": {
+    "1": {}
+  }
+}

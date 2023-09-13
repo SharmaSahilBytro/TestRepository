@@ -1,0 +1,16 @@
+{
+  "@type": "content.model.contentitem.PremiumContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Premium Currency Paid P10 (18001)",
+  "isAbstract": false,
+  "name": "Premium Currency Paid P10",
+  "status": 0,
+  "versions": {
+    "1": {
+      "globalItem": true,
+      "includedPremiums": "0",
+      "inventoryItem": true
+    }
+  }
+}

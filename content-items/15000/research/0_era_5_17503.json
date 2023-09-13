@@ -1,0 +1,24 @@
+{
+  "@type": "content.model.contentitem.ResearchContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "0 - Era 5 (17503)",
+  "isAbstract": false,
+  "name": "0 - Era 5",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiResearchFactor": 1.0,
+      "buildTime": "PT16H30M",
+      "costs": {
+        "Money (20)": 1500.0
+      },
+      "dayAvailable": 6,
+      "replacedResearch": "0 - Era 4 (17502)",
+      "requiredResearches": [
+        "0 - Era 4 (17502)"
+      ],
+      "trackingOptionID": 1
+    }
+  }
+}

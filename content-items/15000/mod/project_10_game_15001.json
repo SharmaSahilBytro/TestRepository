@@ -1,0 +1,452 @@
+{
+  "@type": "content.model.contentitem.ModContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Project 10 Game (15001)",
+  "isAbstract": false,
+  "name": "Project 10 Game",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiBuildConfig": {
+        "capitalFactor": 1.5,
+        "nonCoreFactor": 0.3,
+        "unitFactor": 15.0,
+        "upgradeEconomyFactor": 4.0,
+        "upgradeMilitaryFactor": 6.5,
+        "upgradeMoraleFactor": 0.5,
+        "victoryPointValue": 1.0
+      },
+      "aiCowardMoodFactor": {
+        "0.0": 1.0,
+        "1.0": 0.3
+      },
+      "aiGarrisonConfig": {
+        "minGarrisonSize": 1,
+        "prefGarrison": 10
+      },
+      "aiOffensiveConfig": {
+        "aiCore": 4.0,
+        "base": 0.1,
+        "capital": 2.0,
+        "enemyCore": 1.5,
+        "enemyStrengthProvinceNeighborsFactor": 0.2,
+        "militaryPower": {
+          "0.0": 3.0,
+          "0.33": 3.0,
+          "0.5": 1.5,
+          "0.75": 0.0
+        },
+        "upgrades": 0.25,
+        "victoryPoints": 0.2
+      },
+      "aiWarDeclarationProvinceCapFactor": {
+        "0.0": 1.0
+      },
+      "armyCap": 10,
+      "compatScenarios": [
+        "Test_P10_UK_4p (15100)",
+        "TUTORIAL_Europe_26p (15101)",
+        "TEST_NoAI_Europe_26p (15102)"
+      ],
+      "defaultInfantryUnitId": "0 - Infantry 1 (16000)",
+      "defaultScenario": "Test_P10_UK_4p (15100)",
+      "defensiveAi": {
+        "baseValue": 2.0,
+        "capitalValue": 6.0,
+        "dangerFactors": {
+          "TRADE_EMBARGO": 8.0,
+          "RIGHT_OF_WAY": 2.0,
+          "VIEW_MILITARY_ACTIONS": 1.0,
+          "SHARED_INTELLIGENCE": 1.0,
+          "CEASEFIRE": 8.0,
+          "PEACE": 5.0,
+          "WAR": 12.0
+        },
+        "upgradeValue": 3.0
+      },
+      "enabledDiplomaticTradeTypes": [
+        "PROVINCES",
+        "RELATIONS"
+      ],
+      "features": [
+        "RESOURCES",
+        "PROVINCE_MORALE",
+        "STOCK_MARKET",
+        "NEWSPAPER",
+        "SPIES",
+        "BUILD_AND_PRODUCE",
+        "INCREMENTAL_TECHTREE",
+        "CAPITAL",
+        "PROVINCE_VIEW",
+        "FOW",
+        "TUTORIAL",
+        "PREMIUM_RESOURCE_OFFERS",
+        "ALLIED_FORTRESS",
+        "DAMAGE_AREA",
+        "IN_GAME_ADS",
+        "SCALABLE_OFFERS",
+        "VICTORY_POINTS",
+        "CORE_PROVINCES",
+        "RESEARCH",
+        "FACTIONS",
+        "UPGRADES_INHERIT",
+        "STRATEGIC_ADVISER",
+        "AIRPLANES_WW2",
+        "REPORT_ALL_UNIT_LOSSES",
+        "IMPACT_MARKERS",
+        "INGAME_EVENTS",
+        "PROVINCE_CONQUER_QUESTS",
+        "COALITION",
+        "EQUAL_DAMAGE_DISTRIBUTION",
+        "CAPITAL_DISTANCE_PENALTY",
+        "RESET_MINIMAL_PLAYER_RESOURCES_ON_JOIN",
+        "BLOCK_ATTACKED_AI_SLOTS_FOR_PLAYERS",
+        "NATIVE_AI_NOT_PICKABLE_IN_TEAM_MODE",
+        "TRUE_24_H_FIRST_GAME_DAY",
+        "EFFECTIVE_RANKING_REWARD_SYSTEM",
+        "POINTS_AS_REWARD_AMOUNT",
+        "ADVANCED_URBAN_PROVINCE_LOOK",
+        "SCOUTABLE_PROVINCES",
+        "FOCUS_BUILDING_AND_MORALE_DAMAGE_ON_PROVINCE_CENTRE",
+        "DESTROY_UPGRADE_ON_CANCEL",
+        "MANUAL_ARMY_JOIN"
+      ],
+      "floorSpacePenalty": {
+        "10.0": 1.0,
+        "10.1": 0.0
+      },
+      "fortressConcealmentThreshold": 100,
+      "ingameEvents": {
+        "ArmyDestroyed": 0.0,
+        "CoalitionInvitation": 0.0,
+        "CoalitionMessage": 0.0,
+        "MessageReceived": 0.0,
+        "ProvinceLost": 0.0,
+        "ProvinceWon": 0.0,
+        "QuestDone": 0.0,
+        "SurpriseAttack": 0.0,
+        "TradeOffer": 0.0,
+        "TradeProcessed": 0.0,
+        "UnitProduced": 0.0,
+        "UpgradeBuilt": 0.0,
+        "WarDeclared": 0.0
+      },
+      "jsonConfig": {
+        "equalDamageDistribution": {
+          "deathThreshold": 0.5,
+          "xFactor": {
+            "limit": 0.1,
+            "stdDev": 0.1
+          }
+        },
+        "fakeOrders": {
+          "buy": [
+            {
+              "amountFactor": 0.01,
+              "pricePenaltyFactor": 1.2
+            },
+            {
+              "amountFactor": 0.025,
+              "pricePenaltyFactor": 1.7
+            },
+            {
+              "amountFactor": 0.04,
+              "pricePenaltyFactor": 2.2
+            }
+          ],
+          "sell": [
+            {
+              "amountFactor": 0.01,
+              "pricePenaltyFactor": 1.4
+            },
+            {
+              "amountFactor": 0.025,
+              "pricePenaltyFactor": 1.9
+            },
+            {
+              "amountFactor": 0.04,
+              "pricePenaltyFactor": 2.4
+            }
+          ]
+        }
+      },
+      "minPlayersRanked": 6,
+      "moraleBasedConstructionTime": {
+        "0.0": 0.2,
+        "50.0": 1.0,
+        "100.0": 1.5
+      },
+      "moraleBasedDmgFactor": {
+        "0.0": 0.1,
+        "1.0": 1.0
+      },
+      "moraleBasedProductionTime": {
+        "0.0": 0.2,
+        "50.0": 1.0,
+        "100.0": 1.5
+      },
+      "moraleBasedResourceProductionRate": {
+        "0.0": 0.2,
+        "50.0": 1.0,
+        "100.0": 1.5
+      },
+      "moraleBasedSpeedFactor": {
+        "0.0": 0.7,
+        "0.3": 1.0
+      },
+      "oldestGameEventAge": "P2D",
+      "options": "premiumCurrencyItem=18000, premiumBoughtCurrencyItem=18001, premiumAccountItem=18002, startSetup=2, aiStockFactor=900, moneyForPremium=6, spyCost=10000, cacheTime=3600, noncoreProductionPercent=50, transportShipID=16036, armyStrengthFactor=100, casualtiesFactor=1, tutorialFactory=3, refuelSeconds=1800, patrolInterval=900, attackInterval=1800, airCorridorDegrees=30, capitalDayDistance=1400, aiSessionsPerDay=3, pnPreferencesItem=4720, coreProvinceDefenceFactor=15, modOverwriteID=0, displayAds=1, teamJoinCDAfterLeave=24, teamJoinCDAfterKick=24, marketFeePercentage=10, maxMoralePenaltyWars=0, autoUnitUpgradeWithResearch=0, tutorialTaskGoldReward=500, hasLightArmor=1, useNextVersionFeatures=1, maxAllianceMembers=20, noGoldRounds=1, urbanProvinceListMode=1, hasProvinceMoneySorter=1, hasFactionSpecificBalancing=1, toggleProvincePerTerrainType=1, buildingDamageOnConquer=20, buildingDamageFromSpies=10, harbourCosts=7200, provinceStartMorale=50, provinceNeighbourMoraleFactor=0, provinceNeighbourMoraleThreshold=50",
+      "premiumOffers": [
+        "Reward Gold P10 (18500)"
+      ],
+      "premiums": [
+        "Premium Currency P10 (18000)",
+        "Premium Currency Paid P10 (18001)",
+        "Premium Account P10 (18002)"
+      ],
+      "provinceMorale": {
+        "baseTargetMorale": 0.5,
+        "happyThreshold": 0.45,
+        "maxMoralAfterRecapture": 0.5,
+        "minMoraleAfterCapture": 0.1,
+        "moraleChangeAfterCapture": -0.9,
+        "moraleChangeAfterRecapture": 0.4,
+        "moraleDecFactor": 0.2,
+        "moraleIncFactor": 0.2,
+        "revoltMaxBuildingDamage": 0.0,
+        "revoltMaxDamage": 0.0,
+        "revoltMaxMoraleDamage": 0.0,
+        "revoltMaxUnitDamage": 0.0,
+        "revoltMoraleThreshold": 0.0
+      },
+      "pushNotifications": {
+        "ArmyDestroyed": 0,
+        "CoalitionInvitation": 0,
+        "CoalitionMessage": 0,
+        "LoginRewardAvailable": 0,
+        "MessageReceived": 0,
+        "ProvinceLost": 0,
+        "ProvinceWon": 0,
+        "QuestDone": 0,
+        "ResearchCompleted": 0,
+        "RetentionMessage": 0,
+        "SurpriseAttack": 0,
+        "TradeOffer": 0,
+        "TradeProcessed": 0,
+        "UnitProduced": 0,
+        "UntiProduced": 0,
+        "UpgradeBuilt": 0,
+        "WarDeclared": 0
+      },
+      "questConfig": {
+        "daysBeforeFirstQuest": 1.0,
+        "maxInactiveDaysSpawningCrates": 3.0,
+        "maxQuestSpawnInterval": 18.0,
+        "maxTickets": 4.0,
+        "minQuestSpawnInterval": 0.0,
+        "numberOfResourcesAwarded": 3.0,
+        "provinceSelectorConfig": {
+          "maxDistance": 700,
+          "maxLandHops": 2,
+          "maxSeaHops": 4
+        },
+        "questRewardDropChances": [
+          {
+            "chance": 0.0,
+            "name": "REWARD_PLANS"
+          },
+          {
+            "chance": 100.0,
+            "name": "REWARD_RESOURCES"
+          }
+        ],
+        "questTimeLimit": 36.0,
+        "resourceIntervals": {
+          "COMMON": {
+            "max": 12000.0,
+            "min": 4000.0
+          },
+          "MONETARY": {
+            "max": 24000.0,
+            "min": 8000.0
+          }
+        },
+        "resources": [
+          {
+            "id": 0,
+            "rarity": "COMMON"
+          },
+          {
+            "id": 1,
+            "rarity": "COMMON"
+          },
+          {
+            "id": 20,
+            "rarity": "MONETARY"
+          }
+        ],
+        "ticketContentID": 2035
+      },
+      "randomizedAiMood": {
+        "0.0": -1.0,
+        "0.499": 0.0,
+        "0.501": 0.0,
+        "1.0": 5.0
+      },
+      "ranks": [
+        "Private (15400)",
+        "Private (15401)"
+      ],
+      "realisticBuildingDamage": {
+        "useDamageOnlyFromProvinceCenter": true,
+        "xfactorLimit": 0.1,
+        "xfactorStdDev": 0.1
+      },
+      "relations": [
+        "WAR",
+        "PEACE",
+        "VIEW_MILITARY_ACTIONS"
+      ],
+      "researches": [
+        "0 - Era 2 (17500)",
+        "0 - Era 3 (17501)",
+        "0 - Era 4 (17502)",
+        "0 - Era 5 (17503)",
+        "0 - Era 6 (17504)"
+      ],
+      "resourceCap": {
+        "Supplies (0)": 400.0,
+        "Alloys (1)": 400.0,
+        "Arms (2)": 400.0,
+        "Energy (19)": 400.0,
+        "Money (20)": 1200.0
+      },
+      "resources": {
+        "Supplies (0)": 1.0,
+        "Alloys (1)": 1.0,
+        "Arms (2)": 1.0,
+        "Energy (19)": -1.0,
+        "Money (20)": 1.0
+      },
+      "separateMoraleDamage": {
+        "useDamageOnlyFromProvinceCenter": true,
+        "xfactorLimit": 0.1,
+        "xfactorStdDev": 0.1
+      },
+      "stockMarketPriceWeight": 5000,
+      "stringOptions": "freeTeamMode=true,rankingService=1,suggestedScenarios=15101,systemScenarios=15101,eventScenarios=15100,mobileBrowserShop=shop2017",
+      "suppressRevoltArmyStrength": 0,
+      "terrainTypes": [
+        "PLAINS",
+        "HILLS",
+        "MOUNTAIN",
+        "FOREST",
+        "URBAN",
+        "SHALLOWSEA",
+        "HIGHSEA"
+      ],
+      "units": [
+        "0 - Infantry 1 (16000)",
+        "0 - Infantry 2 (16001)",
+        "0 - Infantry 3 (16002)",
+        "0 - Infantry 4 (16003)",
+        "0 - Infantry 5 (16004)",
+        "0 - Infantry 6 (16005)",
+        "0 - Javelin Soldier 1 (16006)",
+        "0 - Javelin Soldier 2 (16007)",
+        "0 - Javelin Soldier 3 (16008)",
+        "0 - Javelin Soldier 4 (16009)",
+        "0 - Javelin Soldier 5 (16010)",
+        "0 - Javelin Soldier 6 (16011)",
+        "0 - Armored Car 1 (16012)",
+        "0 - Armored Car 2 (16013)",
+        "0 - Armored Car 3 (16014)",
+        "0 - Armored Car 4 (16015)",
+        "0 - Armored Car 5 (16016)",
+        "0 - Armored Car 6 (16017)",
+        "0 - Light Tank 1 (16018)",
+        "0 - Light Tank 2 (16019)",
+        "0 - Light Tank 3 (16020)",
+        "0 - Light Tank 4 (16021)",
+        "0 - Light Tank 5 (16022)",
+        "0 - Light Tank 6 (16023)",
+        "0 - Heavy Tank 1 (16024)",
+        "0 - Heavy Tank 2 (16025)",
+        "0 - Heavy Tank 3 (16026)",
+        "0 - Heavy Tank 4 (16027)",
+        "0 - Heavy Tank 5 (16028)",
+        "0 - Heavy Tank 6 (16029)",
+        "0 - Artillery 1 (16030)",
+        "0 - Artillery 2 (16031)",
+        "0 - Artillery 3 (16032)",
+        "0 - Artillery 4 (16033)",
+        "0 - Artillery 5 (16034)",
+        "0 - Artillery 6 (16035)",
+        "0 - Transport Ship 1 (16036)",
+        "0 - Transport Ship 2 (16037)",
+        "0 - Transport Ship 3 (16038)",
+        "0 - Transport Ship 4 (16039)",
+        "0 - Transport Ship 5 (16040)",
+        "0 - Transport Ship 6 (16041)"
+      ],
+      "upgrades": [
+        "Capital (17000)",
+        "City Hall 1 (17001)",
+        "City Hall 2 (17002)",
+        "City Hall 3 (17003)",
+        "City Hall 4 (17004)",
+        "City Hall 5 (17005)",
+        "City Hall 6 (17006)",
+        "Barracks 1 (17007)",
+        "Barracks 2 (17008)",
+        "Barracks 3 (17009)",
+        "Barracks 4 (17010)",
+        "Barracks 5 (17011)",
+        "Barracks 6 (17012)",
+        "Vehicle Factory 1 (17013)",
+        "Vehicle Factory 2 (17014)",
+        "Vehicle Factory 3 (17015)",
+        "Vehicle Factory 4 (17016)",
+        "Vehicle Factory 5 (17017)",
+        "Vehicle Factory 6 (17018)",
+        "Artillery Factory 1 (17019)",
+        "Artillery Factory 2 (17020)",
+        "Artillery Factory 3 (17021)",
+        "Artillery Factory 4 (17022)",
+        "Artillery Factory 5 (17023)",
+        "Artillery Factory 6 (17024)",
+        "Supplies Industry 1 (17025)",
+        "Supplies Industry 2 (17026)",
+        "Supplies Industry 3 (17027)",
+        "Supplies Industry 4 (17028)",
+        "Supplies Industry 5 (17029)",
+        "Supplies Industry 6 (17030)",
+        "Alloys Industry 1 (17031)",
+        "Alloys Industry 2 (17032)",
+        "Alloys Industry 3 (17033)",
+        "Alloys Industry 4 (17034)",
+        "Alloys Industry 5 (17035)",
+        "Alloys Industry 6 (17036)",
+        "Arms Industry 1 (17037)",
+        "Arms Industry 2 (17038)",
+        "Arms Industry 3 (17039)",
+        "Arms Industry 4 (17040)",
+        "Arms Industry 5 (17041)",
+        "Arms Industry 6 (17042)",
+        "Fortifications 1 (17043)",
+        "Fortifications 2 (17044)",
+        "Fortifications 3 (17045)",
+        "Fortifications 4 (17046)",
+        "Fortifications 5 (17047)",
+        "Fortifications 6 (17048)",
+        "Resource Storage 1 (17049)",
+        "Resource Storage 2 (17050)",
+        "Resource Storage 3 (17051)",
+        "Resource Storage 4 (17052)",
+        "Resource Storage 5 (17053)",
+        "Resource Storage 6 (17054)"
+      ]
+    }
+  }
+}

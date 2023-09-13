@@ -1,0 +1,122 @@
+{
+  "@type": "content.model.contentitem.UnitContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "0 - Infantry 6 (16005)",
+  "isAbstract": false,
+  "name": "0 - Infantry 6",
+  "status": 0,
+  "versions": {
+    "1": {
+      "attackAllowed": true,
+      "buildTime": "PT6H",
+      "conquerer": true,
+      "costs": {
+        "Supplies (0)": 150.0,
+        "Arms (2)": 300.0,
+        "Money (20)": 300.0
+      },
+      "dailyCosts": {
+        "Supplies (0)": 15.0,
+        "Arms (2)": 30.0,
+        "Money (20)": 30.0
+      },
+      "damageArea": {
+        "LAND": 1.0
+      },
+      "damageAreaFactors": {
+        "FOREST": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.0
+      },
+      "damageFactors": {
+        "AIR": 0.333333343,
+        "BUILDING": 0.166666672,
+        "HARD": 0.333333343,
+        "LIGHT": 0.5,
+        "NORMAL": 1.0,
+        "SEA": 0.333333343,
+        "SUBMARINE": 0.333333343
+      },
+      "damageTypes": {
+        "LAND": 0.0
+      },
+      "defence": {
+        "LAND": 18.75
+      },
+      "defenceFactors": {
+        "FOREST": 1.25,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.25
+      },
+      "foreignSpeedFactor": 0.25,
+      "friendlySpeedFactor": 1.0,
+      "garrison": true,
+      "hitPoints": {
+        "LAND": 200.0
+      },
+      "identifier": "infantry",
+      "minProductionTime": "PT6H",
+      "moraleDamage": {
+        "moraleDamage": 1.0
+      },
+      "rankingFactor": 20.0,
+      "requiredUpgrades": {
+        "Barracks 6 (17012)": 1.0,
+        "City Hall 6 (17006)": 1.0
+      },
+      "sizeFactors": {
+        "1": 1.0,
+        "10000": 0.0
+      },
+      "speedFactors": {
+        "FOREST": 1.0,
+        "HILLS": 0.8,
+        "MOUNTAIN": 0.8,
+        "PLAINS": 1.0,
+        "URBAN": 1.0
+      },
+      "speeds": {
+        "LAND": 7.5,
+        "RAIL": 22.5
+      },
+      "statsColumnID": 100,
+      "strength": {
+        "LAND": 15.0
+      },
+      "strengthFactors": {
+        "FOREST": 1.25,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.25
+      },
+      "tier": 6,
+      "unitClass": 0,
+      "unitFeatures": {
+        "REQUIRED_BUILDING_AS_FACTORY": 1.0,
+        "CUSTOM_REINFORCEMENT_COST": 3.4,
+        "PRODUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "FLOOR_SPACE": 1.0,
+        "AI_PENALTY_FOR_PRODUCTION": 0.2,
+        "AI_PRODUCTION_VALUE": 0.2
+      },
+      "viewWidthFactors": {
+        "FOREST": 0.8,
+        "HIGHSEA": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.2,
+        "PLAINS": 1.0,
+        "SHALLOWSEA": 1.0,
+        "URBAN": 1.0
+      },
+      "viewWidths": {
+        "LAND": 150.0
+      }
+    }
+  }
+}

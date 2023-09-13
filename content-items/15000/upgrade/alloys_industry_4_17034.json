@@ -1,0 +1,44 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Alloys Industry 4 (17034)",
+  "isAbstract": false,
+  "name": "Alloys Industry 4",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 1.0,
+      "armorType": "BUILDING",
+      "buildCondition": 20,
+      "buildTime": "PT8H",
+      "costs": {
+        "Alloys (1)": 120.0,
+        "Money (20)": 300.0
+      },
+      "dailyProductions": {
+        "Alloys (1)": 75.0
+      },
+      "dayOfAvailability": 3,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 20,
+      "prodBonus": {
+        "Alloys (1)": 0.25
+      },
+      "rankingFactor": 16.0,
+      "replacedUpgrade": "Alloys Industry 3 (17033)",
+      "requiredUpgrades": {
+        "Alloys Industry 3 (17033)": 1.0,
+        "City Hall 4 (17004)": 1.0
+      },
+      "sortOrders": "6"
+    }
+  }
+}

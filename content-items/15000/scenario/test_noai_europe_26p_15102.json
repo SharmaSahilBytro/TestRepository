@@ -1,0 +1,57 @@
+{
+  "@type": "content.model.contentitem.ScenarioContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "TEST_NoAI_Europe_26p (15102)",
+  "isAbstract": false,
+  "name": "TEST_NoAI_Europe_26p",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiCowardMoodFactor": {
+        "0.0": 0.0
+      },
+      "aiSessionsPerDay": 0,
+      "aiWarDeclarationProvinceCapFactor": {
+        "0.0": 0.0
+      },
+      "allProvincesRefreshTickRate": "PT1M",
+      "attackInterval": "PT30M",
+      "capitalDistancePenalty": {
+        "800.0": 25.0,
+        "800.1": 0.0
+      },
+      "coalitionMemberLimit": 3,
+      "doubleResourceProductionThreshold": 4000,
+      "gameDuration": 35,
+      "logGameBalancingStatistics": 10,
+      "map": "15101_1",
+      "maxEnemyTeamRelation": "PEACE",
+      "maxJoinDay": 2,
+      "maxPlayers": 26,
+      "maxTeams": 3,
+      "minPlayers": 2,
+      "minReopenProvinces": 4,
+      "minStartProvinces": 4,
+      "minTeamRelation": "VIEW_MILITARY_ACTIONS",
+      "playerAiStartDay": 2,
+      "playNowCountrySelect": "1",
+      "playNowGameDuration": 35,
+      "playNowMaxGameAge": "2",
+      "playNowMinActivity": "2",
+      "playNowNumberOfPlayers": "26",
+      "rankingScoreFactor": 1,
+      "scenarioTeamMode": "1",
+      "showInQuickJoinList": true,
+      "status": "JOIN_ONLY",
+      "sugPlayers": 26,
+      "sugTeams": 3,
+      "teamVictoryPoints": 1300,
+      "teamVictoryRewardBoosts": "3500:2500:1800:1200:1000:800:650:500:400:350:300:250:250:250:250:250:250:250:250:250:250:250",
+      "tutorialScenario": true,
+      "tutorialTaskGoldReward": 1000,
+      "victoryPoints": 900,
+      "victoryRewardBoosts": "5000:3500:2500:1800:1200:1000:800:650:500:400:350:300:250:250:250:250:250:250:250:250:250:250"
+    }
+  }
+}
