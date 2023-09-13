@@ -1,0 +1,16 @@
+{
+  "@type": "content.model.contentitem.PremiumContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Premium Currency P10 (18000)",
+  "isAbstract": false,
+  "name": "Premium Currency P10",
+  "status": 0,
+  "versions": {
+    "1": {
+      "globalItem": true,
+      "includedPremiums": "0",
+      "inventoryItem": true
+    }
+  }
+}

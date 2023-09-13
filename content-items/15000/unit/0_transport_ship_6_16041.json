@@ -1,0 +1,87 @@
+{
+  "@type": "content.model.contentitem.UnitContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "0 - Transport Ship 6 (16041)",
+  "isAbstract": false,
+  "name": "0 - Transport Ship 6",
+  "status": 0,
+  "versions": {
+    "1": {
+      "attackAllowed": true,
+      "conquerer": true,
+      "damageArea": {
+        "SEA": 1.0
+      },
+      "damageFactors": {
+        "AIR": 0.5,
+        "BUILDING": 0.0,
+        "HARD": 0.5,
+        "LIGHT": 0.5,
+        "NORMAL": 0.5,
+        "SEA": 1.0,
+        "SUBMARINE": 1.0
+      },
+      "damageTypes": {
+        "LAND": 2.0
+      },
+      "defence": {
+        "SEA": 5.0
+      },
+      "defenceFactors": {
+        "HIGHSEA": 1.0,
+        "SHALLOWSEA": 1.0
+      },
+      "foreignSpeedFactor": 0.25,
+      "friendlySpeedFactor": 1.0,
+      "garrison": true,
+      "hitPoints": {
+        "SEA": 100.0
+      },
+      "identifier": "transport_ship",
+      "rankingFactor": 20.0,
+      "sizeFactors": {
+        "1": 1.0,
+        "10000": 0.0
+      },
+      "speedFactors": {
+        "HIGHSEA": 1.5,
+        "SHALLOWSEA": 1.0
+      },
+      "speeds": {
+        "SEA": 11.25
+      },
+      "statsColumnID": 106,
+      "strength": {
+        "SEA": 5.0
+      },
+      "strengthFactors": {
+        "HIGHSEA": 1.0,
+        "SHALLOWSEA": 1.0
+      },
+      "tier": 6,
+      "unitClass": 4,
+      "unitFeatures": {
+        "REQUIRED_BUILDING_AS_FACTORY": 1.0,
+        "NOT_PRODUCABLE": 1.0,
+        "CUSTOM_REINFORCEMENT_COST": 3.7,
+        "PRODUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "FLOOR_SPACE": 1.0,
+        "AI_PENALTY_FOR_PRODUCTION": 0.2,
+        "SHIP": 1.0
+      },
+      "viewWidthFactors": {
+        "FOREST": 0.8,
+        "HIGHSEA": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.2,
+        "PLAINS": 1.0,
+        "SHALLOWSEA": 1.0,
+        "URBAN": 1.0
+      },
+      "viewWidths": {
+        "LAND": 150.0
+      }
+    }
+  }
+}

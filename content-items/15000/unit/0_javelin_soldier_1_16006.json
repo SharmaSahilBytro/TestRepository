@@ -1,0 +1,122 @@
+{
+  "@type": "content.model.contentitem.UnitContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "0 - Javelin Soldier 1 (16006)",
+  "isAbstract": false,
+  "name": "0 - Javelin Soldier 1",
+  "status": 0,
+  "versions": {
+    "1": {
+      "attackAllowed": true,
+      "buildTime": "PT3H",
+      "conquerer": true,
+      "costs": {
+        "Supplies (0)": 50.0,
+        "Arms (2)": 125.0,
+        "Money (20)": 150.0
+      },
+      "dailyCosts": {
+        "Supplies (0)": 5.0,
+        "Arms (2)": 13.0,
+        "Money (20)": 15.0
+      },
+      "damageArea": {
+        "LAND": 1.0
+      },
+      "damageAreaFactors": {
+        "FOREST": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.0
+      },
+      "damageFactors": {
+        "AIR": 0.5,
+        "BUILDING": 0.25,
+        "HARD": 1.0,
+        "LIGHT": 0.75,
+        "NORMAL": 0.25,
+        "SEA": 0.5,
+        "SUBMARINE": 0.5
+      },
+      "damageTypes": {
+        "LAND": 0.0
+      },
+      "defence": {
+        "LAND": 5.0
+      },
+      "defenceFactors": {
+        "FOREST": 1.25,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.25
+      },
+      "foreignSpeedFactor": 0.25,
+      "friendlySpeedFactor": 1.0,
+      "garrison": true,
+      "hitPoints": {
+        "LAND": 40.0
+      },
+      "identifier": "javelin",
+      "minProductionTime": "PT3H",
+      "moraleDamage": {
+        "moraleDamage": 0.3
+      },
+      "rankingFactor": 12.0,
+      "requiredUpgrades": {
+        "Barracks 1 (17007)": 1.0,
+        "City Hall 1 (17001)": 1.0
+      },
+      "sizeFactors": {
+        "1": 1.0,
+        "10000": 0.0
+      },
+      "speedFactors": {
+        "FOREST": 1.0,
+        "HILLS": 0.8,
+        "MOUNTAIN": 0.8,
+        "PLAINS": 1.0,
+        "URBAN": 1.0
+      },
+      "speeds": {
+        "LAND": 5.0,
+        "RAIL": 15.0
+      },
+      "statsColumnID": 101,
+      "strength": {
+        "LAND": 4.0
+      },
+      "strengthFactors": {
+        "FOREST": 1.25,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.0,
+        "PLAINS": 1.0,
+        "URBAN": 1.25
+      },
+      "tier": 1,
+      "unitClass": 0,
+      "unitFeatures": {
+        "REQUIRED_BUILDING_AS_FACTORY": 1.0,
+        "CUSTOM_REINFORCEMENT_COST": 3.3,
+        "PRODUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "FLOOR_SPACE": 1.0,
+        "AI_PENALTY_FOR_PRODUCTION": 0.12,
+        "AI_PRODUCTION_VALUE": 0.12
+      },
+      "viewWidthFactors": {
+        "FOREST": 0.8,
+        "HIGHSEA": 1.0,
+        "HILLS": 1.0,
+        "MOUNTAIN": 1.2,
+        "PLAINS": 1.0,
+        "SHALLOWSEA": 1.0,
+        "URBAN": 1.0
+      },
+      "viewWidths": {
+        "LAND": 150.0
+      }
+    }
+  }
+}

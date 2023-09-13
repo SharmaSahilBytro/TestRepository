@@ -1,0 +1,41 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Arms Industry 4 (17040)",
+  "isAbstract": false,
+  "name": "Arms Industry 4",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 1.0,
+      "armorType": "BUILDING",
+      "buildCondition": 20,
+      "buildTime": "PT8H",
+      "costs": {
+        "Alloys (1)": 120.0,
+        "Money (20)": 360.0
+      },
+      "dailyProductions": {
+        "Arms (2)": 75.0
+      },
+      "dayOfAvailability": 3,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 20,
+      "rankingFactor": 16.0,
+      "replacedUpgrade": "Arms Industry 3 (17039)",
+      "requiredUpgrades": {
+        "Arms Industry 3 (17039)": 1.0,
+        "City Hall 4 (17004)": 1.0
+      },
+      "sortOrders": "7"
+    }
+  }
+}

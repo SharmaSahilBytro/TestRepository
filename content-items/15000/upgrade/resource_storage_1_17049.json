@@ -1,0 +1,40 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Resource Storage 1 (17049)",
+  "isAbstract": false,
+  "name": "Resource Storage 1",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 0.5,
+      "armorType": "BUILDING",
+      "buildCondition": 5,
+      "buildTime": "PT2H",
+      "costs": {
+        "Alloys (1)": 40.0,
+        "Money (20)": 40.0
+      },
+      "dayOfAvailability": 0,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 1.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 5,
+      "minCondition": 5,
+      "rankingFactor": 6.0,
+      "requiredUpgrades": {},
+      "resourceCapImpact": {
+        "Supplies (0)": 100.0,
+        "Alloys (1)": 100.0,
+        "Arms (2)": 100.0
+      },
+      "sortOrders": "9"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Resource Storage 4 (17052)",
+  "isAbstract": false,
+  "name": "Resource Storage 4",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 0.5,
+      "armorType": "BUILDING",
+      "buildCondition": 10,
+      "buildTime": "PT4H",
+      "costs": {
+        "Alloys (1)": 80.0,
+        "Money (20)": 80.0
+      },
+      "dayOfAvailability": 3,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 10,
+      "rankingFactor": 12.0,
+      "replacedUpgrade": "Resource Storage 3 (17051)",
+      "requiredUpgrades": {
+        "Resource Storage 3 (17051)": 1.0,
+        "City Hall 4 (17004)": 1.0
+      },
+      "resourceCapImpact": {
+        "Supplies (0)": 200.0,
+        "Alloys (1)": 200.0,
+        "Arms (2)": 200.0
+      },
+      "sortOrders": "9"
+    }
+  }
+}

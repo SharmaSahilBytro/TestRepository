@@ -1,0 +1,36 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Fortifications 1 (17043)",
+  "isAbstract": false,
+  "name": "Fortifications 1",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 1.0,
+      "armorType": "BUILDING",
+      "buildCondition": 10,
+      "buildTime": "PT6H",
+      "costs": {
+        "Alloys (1)": 80.0,
+        "Money (20)": 40.0
+      },
+      "dayOfAvailability": 0,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 1.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "FORTRESS": 0.333333343,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 10,
+      "minCondition": 10,
+      "rankingFactor": 10.0,
+      "requiredUpgrades": {},
+      "sortOrders": "8"
+    }
+  }
+}

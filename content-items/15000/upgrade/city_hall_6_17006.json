@@ -1,0 +1,48 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "City Hall 6 (17006)",
+  "isAbstract": false,
+  "name": "City Hall 6",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 1.0,
+      "armorType": "BUILDING",
+      "buildCondition": 30,
+      "buildTime": "PT14H",
+      "costs": {
+        "Alloys (1)": 300.0,
+        "Money (20)": 1200.0
+      },
+      "dailyProductions": {
+        "Money (20)": 120.0
+      },
+      "dayOfAvailability": 7,
+      "features": {
+        "MORALE_BONUS": 5.0,
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "INDESTRUCTABLE": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 30,
+      "prodBonus": {
+        "Money (20)": 0.3
+      },
+      "rankingFactor": 20.0,
+      "replacedUpgrade": "City Hall 5 (17005)",
+      "requiredUpgrades": {
+        "City Hall 5 (17005)": 1.0
+      },
+      "resourceCapImpact": {
+        "Money (20)": 120.0
+      },
+      "sortOrders": "1"
+    }
+  }
+}

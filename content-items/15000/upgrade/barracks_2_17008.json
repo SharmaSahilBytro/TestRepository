@@ -1,0 +1,45 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Barracks 2 (17008)",
+  "isAbstract": false,
+  "name": "Barracks 2",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 2.0,
+      "armorType": "BUILDING",
+      "buildCondition": 10,
+      "buildTime": "PT3H",
+      "costs": {
+        "Alloys (1)": 80.0,
+        "Money (20)": 120.0
+      },
+      "dayOfAvailability": 0,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "DESTROYED_ON_OWNER_CHANGE": 1.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrain": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "forbiddenTerrainCore": [],
+      "maxCondition": 10,
+      "rankingFactor": 12.0,
+      "replacedUpgrade": "Barracks 1 (17007)",
+      "requiredUpgrades": {
+        "Barracks 1 (17007)": 1.0,
+        "City Hall 2 (17002)": 1.0
+      },
+      "sortOrders": "2"
+    }
+  }
+}

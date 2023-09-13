@@ -1,0 +1,36 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Capital (17000)",
+  "isAbstract": false,
+  "name": "Capital",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 1.0,
+      "armorType": "BUILDING",
+      "buildCondition": 20,
+      "buildTime": "PT4H",
+      "costs": {
+        "Alloys (1)": 80.0,
+        "Money (20)": 80.0
+      },
+      "dayOfAvailability": 0,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "CAPITAL": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 20,
+      "minCondition": 20,
+      "rankingFactor": 10.0,
+      "requiredUpgrades": {},
+      "sortOrders": "10"
+    }
+  }
+}

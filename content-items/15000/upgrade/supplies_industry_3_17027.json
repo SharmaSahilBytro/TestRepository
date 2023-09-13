@@ -1,0 +1,44 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Supplies Industry 3 (17027)",
+  "isAbstract": false,
+  "name": "Supplies Industry 3",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 1.0,
+      "armorType": "BUILDING",
+      "buildCondition": 20,
+      "buildTime": "PT8H",
+      "costs": {
+        "Alloys (1)": 120.0,
+        "Money (20)": 300.0
+      },
+      "dailyProductions": {
+        "Supplies (0)": 75.0
+      },
+      "dayOfAvailability": 3,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 20,
+      "prodBonus": {
+        "Supplies (0)": 0.25
+      },
+      "rankingFactor": 14.0,
+      "replacedUpgrade": "Supplies Industry 2 (17026)",
+      "requiredUpgrades": {
+        "Supplies Industry 2 (17026)": 1.0,
+        "City Hall 3 (17003)": 1.0
+      },
+      "sortOrders": "5"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@type": "content.model.contentitem.OfferContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Reward Gold P10 (18500)",
+  "isAbstract": false,
+  "name": "Reward Gold P10",
+  "status": 0,
+  "versions": {
+    "1": {
+      "currency": "Gold",
+      "itemAmount": 1,
+      "offerCategory": 5,
+      "price": -1.0
+    }
+  }
+}

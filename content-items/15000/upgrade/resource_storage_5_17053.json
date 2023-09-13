@@ -1,0 +1,43 @@
+{
+  "@type": "content.model.contentitem.UpgradeContentItem",
+  "comment": "",
+  "goldFeature": false,
+  "id": "Resource Storage 5 (17053)",
+  "isAbstract": false,
+  "name": "Resource Storage 5",
+  "status": 0,
+  "versions": {
+    "1": {
+      "aiProductionFactor": 0.5,
+      "armorType": "BUILDING",
+      "buildCondition": 20,
+      "buildTime": "PT6H",
+      "costs": {
+        "Alloys (1)": 120.0,
+        "Money (20)": 120.0
+      },
+      "dayOfAvailability": 7,
+      "features": {
+        "REQUIRE_UPGRADE_GROUND": 0.0,
+        "UNLOCK_UPGRADE_GROUNDS": 0.0,
+        "CONSTRUCTION_SPEEDUP_COST_FACTOR": 1.0,
+        "HIDDEN": 1.0,
+        "PUBLIC": 1.0
+      },
+      "forbiddenTerrainCore": [],
+      "maxCondition": 20,
+      "rankingFactor": 14.0,
+      "replacedUpgrade": "Resource Storage 4 (17052)",
+      "requiredUpgrades": {
+        "Resource Storage 4 (17052)": 1.0,
+        "City Hall 5 (17005)": 1.0
+      },
+      "resourceCapImpact": {
+        "Supplies (0)": 300.0,
+        "Alloys (1)": 300.0,
+        "Arms (2)": 300.0
+      },
+      "sortOrders": "9"
+    }
+  }
+}
